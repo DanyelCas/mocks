@@ -1,0 +1,368 @@
+{
+  "users": [
+    {
+      "id": "100001",
+      "name": "Juan Perez",
+      "email": "juan.perez@example.com",
+      "status": "active"
+    },
+    {
+      "id": "100002",
+      "name": "Juan Perez 4",
+      "email": "daniel.castillo@gmail.com",
+      "status": "active"
+    },
+    {
+      "id": "100003",
+      "name": "Daniel Castillo Quispe",
+      "email": "leinadcastilq@gmail.com",
+      "username": null,
+      "role": "USER",
+      "status": "active"
+    },
+    {
+      "id": "100004",
+      "name": "maria",
+      "email": "maria@correo.com",
+      "username": null,
+      "role": "USER",
+      "status": "active"
+    }
+  ],
+  "invoices": [
+    {
+      "id": 1,
+      "customerId": "100001",
+      "servicio": "Luz Eléctrica",
+      "monto": 980.45,
+      "fechaVencimiento": "2025-12-10",
+      "estado": "pendiente",
+      "mes": "Noviembre",
+      "anio": 2025
+    },
+    {
+      "id": 2,
+      "customerId": "100001",
+      "servicio": "Agua Potable",
+      "monto": 320.1,
+      "fechaVencimiento": "2025-12-15",
+      "estado": "pagado",
+      "mes": "Noviembre",
+      "anio": 2025
+    },
+    {
+      "id": 3,
+      "customerId": "100001",
+      "servicio": "Internet Fibra",
+      "monto": 550,
+      "fechaVencimiento": "2025-12-05",
+      "estado": "pendiente",
+      "mes": "Noviembre",
+      "anio": 2025
+    },
+    {
+      "id": 4,
+      "customerId": "100001",
+      "servicio": "Luz Eléctrica",
+      "monto": 1010.3,
+      "fechaVencimiento": "2026-01-10",
+      "estado": "pagado",
+      "mes": "Diciembre",
+      "anio": 2025
+    },
+    {
+      "id": 5,
+      "customerId": "100001",
+      "servicio": "Agua Potable",
+      "monto": 340.8,
+      "fechaVencimiento": "2026-01-15",
+      "estado": "pagado",
+      "mes": "Diciembre",
+      "anio": 2025
+    },
+    {
+      "id": 6,
+      "customerId": "100001",
+      "servicio": "Internet Fibra",
+      "monto": 550,
+      "fechaVencimiento": "2026-01-05",
+      "estado": "pagado",
+      "mes": "Diciembre",
+      "anio": 2025
+    },
+    {
+      "id": 7,
+      "customerId": "100001",
+      "servicio": "Luz Eléctrica",
+      "monto": 1250.9,
+      "fechaVencimiento": "2026-02-10",
+      "estado": "pagado",
+      "mes": "Enero",
+      "anio": 2026
+    },
+    {
+      "id": 8,
+      "customerId": "100001",
+      "servicio": "Telefonía Fija",
+      "monto": 280.5,
+      "fechaVencimiento": "2026-02-15",
+      "estado": "pendiente",
+      "mes": "Enero",
+      "anio": 2026
+    },
+    {
+      "id": 9,
+      "customerId": "100001",
+      "servicio": "TV Cable",
+      "monto": 410,
+      "fechaVencimiento": "2026-02-15",
+      "estado": "pendiente",
+      "mes": "Enero",
+      "anio": 2026
+    },
+    {
+      "id": 10,
+      "customerId": "100001",
+      "servicio": "Agua Potable",
+      "monto": 350.6,
+      "fechaVencimiento": "2026-02-20",
+      "estado": "pendiente",
+      "mes": "Enero",
+      "anio": 2026
+    },
+    {
+      "id": 11,
+      "customerId": "100001",
+      "servicio": "Internet Fibra",
+      "monto": 550,
+      "fechaVencimiento": "2026-02-05",
+      "estado": "pendiente",
+      "mes": "Enero",
+      "anio": 2026
+    },
+    {
+      "id": 12,
+      "customerId": "100001",
+      "servicio": "Luz Eléctrica",
+      "monto": 1100,
+      "fechaVencimiento": "2026-03-10",
+      "estado": "pagado",
+      "mes": "Febrero",
+      "anio": 2026
+    },
+    {
+      "id": 13,
+      "customerId": "100002",
+      "servicio": "Gas Domiciliario",
+      "monto": 210.4,
+      "fechaVencimiento": "2026-02-25",
+      "estado": "pendiente",
+      "mes": "Enero",
+      "anio": 2026
+    },
+    {
+      "customerId": "100001",
+      "servicio": "Internet Fibra",
+      "mes": "Enero",
+      "anio": 2026,
+      "monto": 233.1,
+      "fechaVencimiento": "2026-06-06",
+      "estado": "pendiente",
+      "id": 14
+    },
+    {
+      "customerId": "100003",
+      "servicio": "Gas Domiciliario",
+      "mes": "Enero",
+      "anio": 2026,
+      "monto": 500,
+      "fechaVencimiento": "2026-02-02",
+      "estado": "pagado",
+      "id": 15
+    },
+    {
+      "customerId": "100003",
+      "servicio": "TV Cable",
+      "mes": "Diciembre",
+      "anio": 2025,
+      "monto": 200,
+      "fechaVencimiento": "2026-01-02",
+      "estado": "pendiente",
+      "id": 16
+    },
+    {
+      "customerId": "100003",
+      "servicio": "Internet Fibra",
+      "mes": "Diciembre",
+      "anio": 2025,
+      "monto": 100.5,
+      "fechaVencimiento": "2026-01-06",
+      "estado": "pendiente",
+      "id": 17
+    },
+    {
+      "customerId": "100003",
+      "servicio": "Gas Domiciliario",
+      "mes": "Diciembre",
+      "anio": 2025,
+      "monto": 150,
+      "fechaVencimiento": "2026-01-03",
+      "estado": "pagado",
+      "id": 18
+    }
+  ],
+  "receipts": [
+    {
+      "id": "REC-302219-399",
+      "timestamp": "2026-01-30T21:58:22.219Z",
+      "userId": "100001",
+      "items": [
+        {
+          "invoiceId": 1,
+          "servicio": "Luz Eléctrica",
+          "monto": 980.45,
+          "mes": "Noviembre",
+          "anio": 2025
+        }
+      ],
+      "totalAmount": 980.45,
+      "paymentMethod": "QR / Transferencia"
+    },
+    {
+      "id": "REC-409292-849",
+      "timestamp": "2026-01-30T22:00:09.292Z",
+      "userId": "100001",
+      "items": [
+        {
+          "invoiceId": 2,
+          "servicio": "Agua Potable",
+          "monto": 320.1,
+          "mes": "Noviembre",
+          "anio": 2025
+        }
+      ],
+      "totalAmount": 320.1,
+      "paymentMethod": "QR / Transferencia"
+    },
+    {
+      "id": "REC-817789-965",
+      "timestamp": "2026-01-30T22:23:37.789Z",
+      "userId": "100001",
+      "items": [
+        {
+          "invoiceId": 3,
+          "servicio": "Internet Fibra",
+          "monto": 550,
+          "mes": "Noviembre",
+          "anio": 2025
+        }
+      ],
+      "totalAmount": 550,
+      "paymentMethod": "QR / Transferencia"
+    },
+    {
+      "id": "REC-383415-619",
+      "timestamp": "2026-01-30T23:39:43.415Z",
+      "userId": "100001",
+      "items": [
+        {
+          "invoiceId": 4,
+          "servicio": "Luz Eléctrica",
+          "monto": 1010.3,
+          "mes": "Diciembre",
+          "anio": 2025
+        }
+      ],
+      "totalAmount": 1010.3,
+      "paymentMethod": "QR / Transferencia"
+    },
+    {
+      "id": "REC-102862-295",
+      "timestamp": "2026-01-30T23:51:42.862Z",
+      "userId": "100001",
+      "items": [
+        {
+          "invoiceId": 5,
+          "servicio": "Agua Potable",
+          "monto": 340.8,
+          "mes": "Diciembre",
+          "anio": 2025
+        },
+        {
+          "invoiceId": 6,
+          "servicio": "Internet Fibra",
+          "monto": 550,
+          "mes": "Diciembre",
+          "anio": 2025
+        }
+      ],
+      "totalAmount": 890.8,
+      "paymentMethod": "QR / Transferencia"
+    },
+    {
+      "id": "REC-183588-945",
+      "timestamp": "2026-01-31T01:49:43.588Z",
+      "userId": "100001",
+      "customerName": "Juan Perez",
+      "items": [
+        {
+          "invoiceId": 7,
+          "servicio": "Luz Eléctrica",
+          "monto": 1250.9,
+          "mes": "Enero",
+          "anio": 2026
+        },
+        {
+          "invoiceId": 12,
+          "servicio": "Luz Eléctrica",
+          "monto": 1100,
+          "mes": "Febrero",
+          "anio": 2026
+        }
+      ],
+      "totalAmount": 2350.9,
+      "paymentMethod": "QR / Transferencia"
+    },
+    {
+      "id": "REC-753294-894",
+      "timestamp": "2026-02-01T13:15:53.294Z",
+      "userId": "100003",
+      "customerName": "Daniel Castillo Quispe",
+      "items": [
+        {
+          "invoiceId": 15,
+          "servicio": "Gas Domiciliario",
+          "mes": "Enero",
+          "anio": 2026,
+          "monto": 500
+        },
+        {
+          "invoiceId": 18,
+          "servicio": "Gas Domiciliario",
+          "mes": "Diciembre",
+          "anio": 2025,
+          "monto": 150
+        }
+      ],
+      "totalAmount": 650,
+      "paymentMethod": "QR / Transferencia"
+    },
+    {
+      "id": "REC-065692-903",
+      "timestamp": "2026-02-01T13:21:05.692Z",
+      "userId": "100001",
+      "customerName": "Juan Perez",
+      "items": [
+        {
+          "invoiceId": 2,
+          "servicio": "Agua Potable",
+          "mes": "Noviembre",
+          "anio": 2025,
+          "monto": 320.1
+        }
+      ],
+      "totalAmount": 320.1,
+      "paymentMethod": "QR / Transferencia"
+    }
+  ]
+}
